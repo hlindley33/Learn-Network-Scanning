@@ -32,6 +32,7 @@ git clone https://github.com/hlindley33/Learn-Network-Scanning.git
   nmap 192.168.2.45 -D 10.0.0.1,10.0.0.2,10.0.0.3
   ```
   This will make the scans seem to come from IP addresses after the -D and they can be replaced with any IP
+  
   4. The last scan we will demonstrate is a scan to determine the OS of the target computer or computers on the subnet In this example we will target the host computer again
   ```
   nmap -sS -O 192.168.2.45
