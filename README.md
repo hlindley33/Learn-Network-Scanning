@@ -1,7 +1,7 @@
 # Intro
 This demo will teach how to scan a network using nmap. Nmap is a network mapper and will reveal open ports on machines on a subnet, or a target machine.  Nmap comes with several different scanning techniques that we will explore
 
-## This will be a windows based demonstration but a copy of the mac nmap will be available too.  The nmap commands will remain the same in both OS, but command prompt commands can change.
+ This will be a windows based demonstration but a copy of the mac nmap will be available too.  The nmap commands will remain the same in both OS, but command prompt commands can change.
 # What we will do
 1. Install nmap in order to run the scans
 2. first check our host pc's ip address in order to learn the subnet for future scanning
@@ -32,7 +32,7 @@ git clone https://github.com/hlindley33/Learn-Network-Scanning.git
   nmap 192.168.2.45 -D 10.0.0.1,10.0.0.2,10.0.0.3
   ```
   This will make the scans seem to come from IP addresses after the -D and they can be replaced with any IP
-  
+
   4. The last scan we will demonstrate is a scan to determine the OS of the target computer or computers on the subnet In this example we will target the host computer again
   ```
   nmap -sS -O 192.168.2.45
